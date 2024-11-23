@@ -2,7 +2,7 @@
 name = "mcmeta-parser"
 description = "Library for adding a struct to parse minecraft java edition resource pack pack.mcmeta file"
 authors = ["endernon"]
-repository = "https://git.frfrnocap.men/mcmeta-parser"
+repository = "https://git.frfrnocap.men/endernon/mcmeta-parser"
 readme = "readme.md"
 license = "LGPL-3.0"
 version = "0.4.0"

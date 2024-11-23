@@ -1,4 +1,4 @@
-use serde::{Serialize,Deserialize};
+use pub serde::{Serialize,Deserialize};
 #[derive(Serialize, Deserialize, Eq, PartialEq, Debug, Clone)]
 #[serde()]
 pub struct McMeta {
