@@ -6,7 +6,7 @@ pub struct Mcmeta {
     /// Holds the pack information.
     pub pack: McmetaPack,
     /// (optional) Section for selecting experimental features.
-    pub features: McmetaFeatures,
+    pub features: Option<McmetaFeatures>,
     /// (optional) Section for filtering out files from packs applied below this one.
     pub filter: Option<McmetaFilter>,
     /// (optional) Section for specifying the overlays, which are sub-packs applied over the "normal" contents of a pack.
